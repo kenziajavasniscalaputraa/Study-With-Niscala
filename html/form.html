@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Sederhana</title>
+</head>
+<body>
+
+    <!-- Radio (pilih satu doang) -->
+    <!-- Checkbox (Bisa lebih dari satu) -->
+
+    <table border="1">
+        
+    <h2>Formulir Sentra</h2>
+
+    <form action="method"="post">
+
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama"><br>
+
+        <label>Kelas:</label><br>
+        <input type="text" name="Kelas"><br>
+
+        <label>Nis:</label><br>
+        <input type="text" name="Nis"><br>  
+
+        <label>Jurusan:</label><br>
+        <input type="radio" name="jurusan" value="Tkj">Tkj
+        <input type="radio" name="jurusan" value="Rpl">Rpl
+        <input type="radio" name="jurusan" value="Akses">Akses
+        <br>
+
+        <label>Sentra:</label><br>
+        <input type="checkbox" name="Sentra[]" value="Iot">Iot
+        <input type="checkbox" name="Sentra[]" value="Python">Python
+        <input type="checkbox" name="Sentra[]" value="Desain">Desain
+        <input type="checkbox" name="Sentra[]" value="Robotik">Robotik
+        <input type="checkbox" name="Sentra[]" value="Manajemen Data">Manajemen Data
+        <br>
+
+        <label>Guru:</label><br>
+        <select name="Guru">    
+            <option value="Bu Rini">Bu Rini</option>
+            <option value="Pa Saur">Pa Saur</option>
+            <option value="Pa Adang">Pa Adang</option>
+        </select>
+
+    </table>
+   </form>
+</body>
+</html>
